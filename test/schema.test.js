@@ -26,8 +26,8 @@ describe('schema', () => {
   test('defaults', async () => {
     expect(schema.validate({}).value).toEqual({
       historyLabel: 'history',
-      issueTitle: 'Attention to contributors',
-      issueComment: 'It appears that a change in history has occured. ' +
+      issueTitle: 'Attention, contributors',
+      issueComment: 'It appears that a change in history has occurred. ' +
       'If you plan on contributing to this project please ' +
       'delete your fork and make a new one. ' +
       'We apologize for the inconvenience.',
