@@ -15,8 +15,9 @@
   },
   "dependencies": {
     "child_process": "^1.0.2",
-    "joi": "^13.1.2",
-    "probot": "^6.0.0",
+    "joi": "^13.3.0",
+    "now": "^11.1.7",
+    "probot": "^6.1.0",
     "probot-config": "^0.1.0",
     "standard": "^10.0.3"
   },
