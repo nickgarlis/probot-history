@@ -2,6 +2,8 @@
 
 > a GitHub App built with [Probot](https://github.com/probot/probot) notifies contributors when a change in history has occurred.
 
+![history-demo](https://user-images.githubusercontent.com/25513006/40001110-229e98b0-5796-11e8-8924-79bd0cbb91f2.png)
+
 ## Usage
 
 1. **[Configure the GitHub App](https://github.com/apps/history)**
