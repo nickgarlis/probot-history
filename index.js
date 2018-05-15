@@ -5,12 +5,10 @@ module.exports = async robot => {
   robot.on('push', notifyUsers)
 
   async function notifyUsers (context) {
-    if (!context.payload.forced) {
-      return
-    }
-
-    const history = await forRepository(context)
-    await history.notifyUsers()
+    if (context.payload.forced) {
+      const history = await forRepository(context)
+      await history.notifyUsers()
+    }  
   }
 
   async function forRepository (context) {
