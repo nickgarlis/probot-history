@@ -10,13 +10,11 @@
   },
   "scripts": {
     "start": "probot run ./index.js",
-    "test": "jest && standard",
-    "deploy": "node ./deploy.js"
+    "test": "jest && standard"
   },
   "dependencies": {
     "child_process": "^1.0.2",
     "joi": "^13.3.0",
-    "now": "^11.1.7",
     "probot": "^6.1.0",
     "probot-config": "^0.1.0",
     "standard": "^10.0.3"
@@ -47,15 +45,5 @@
     "probot",
     "github",
     "bot"
-  ],
-  "now": {
-    "name": "probot-history",
-    "alias": "probot-history.now.sh",
-    "scale": {
-      "sfo1": {
-        "min": 1,
-        "max": 1
-      }
-    }
-  }
+  ]
 }

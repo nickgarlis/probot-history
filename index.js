@@ -8,7 +8,7 @@ module.exports = async robot => {
     if (context.payload.forced) {
       const history = await forRepository(context)
       await history.notifyUsers()
-    }  
+    }
   }
 
   async function forRepository (context) {
